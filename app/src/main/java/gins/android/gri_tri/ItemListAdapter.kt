@@ -61,7 +61,7 @@ class ItemListAdapter(private val context: Context, private val categoriesList: 
                    context.startActivity(i)
                }
                "Flowering Plants" -> {
-                   val i: Intent = Intent(context, OutdoorPlants::class.java)
+                   val i: Intent = Intent(context, FloweringPlants::class.java)
                    context.startActivity(i)
                }
            }
